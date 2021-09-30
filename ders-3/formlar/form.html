@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="text-align: center;margin-top: 15%;border: solid 1px black;">
+    <h1>Kayıt Formu</h1>
+    <label for="name">İsim : </label>
+    <input type="text" id="name" name="İsim">
+
+    <br><br>
+    <label for="lname">soyad: </label>
+    <input type="text" id="lname" name="soyad">
+ 
+    <p>Cinsiyet</p>
+    <input type="radio" id="erkek" value="erkek" name="cinsiyet">
+    <label for="erkek">Erkek</label>
+    <input type="radio" id="kadin" value="kadin" name="cinsiyet">
+    <label for="kadin">Kadin</label>
+    <br><br>
+    <label for="burc">Sizin Burcunuz</label>
+    <select id="burc">
+        <option value="yay">Yay</option>
+        <option value="akrep">Akrep</option>
+        <option value="boga">Boga</option>
+    </select>
+    <br><br>
+    <label for="tanit">Kendinizi Tanıtın : </label>
+    <br>
+    <textarea name="" id="tanit" cols="30" rows="10"></textarea>
+    <br><br>
+    <input type="submit" value="kaydet">
+    <input type="reset" value="İptal">
+    </form>
+</body>
+</html>

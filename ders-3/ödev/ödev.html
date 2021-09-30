@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="text-align: center;margin-top: 20px;">
+        <h3 style="float: left;margin-left: 400px;"><a href="ödev.html" style="text-decoration: none;color: blanchedalmond;">Kayıt</a></h3>
+        
+        <h3><a href="burc.html" style="text-decoration: none;color: blanchedalmond;">Burc tahmini</a></h3>
+
+    </div>
+    <div id="form">
+    <form style="text-align: center;margin-top:15%;border: black solid 2px;">
+        <h1>Kayıt oluştur</h1>
+        <label for="name">İsim : </label>
+        <input type="text" name="isim" id="name" value="İsim" required>
+        <br><br>
+        <label for="lname">Soyad : </label>
+        <input type="text" name="lname" id="lname" value="Soyad" required>
+        <br><br>
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="pass">Parola</label>
+        <input type="password" name="pass" id="pass" required>
+        <br><br>
+        <label for="birtDate">Doğum tarihi: </label>
+        <input type="date" name="birtDate" id="birtDate" required>
+        <br><br>
+        <label for="address">Adres</label>
+        <br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="kaydet" id="button">
+        <input type="reset" value="iptal" id="button">   
+    </form>
+    </div>
+</body>
+</html>

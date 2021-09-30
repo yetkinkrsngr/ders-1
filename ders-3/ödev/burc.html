@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div style="text-align: center; margin-top: 20px">
+      <h3 style="float: left; margin-left: 400px">
+        <a href="ödev.html" style="text-decoration: none; color: blanchedalmond"
+          >Kayıt</a
+        >
+      </h3>
+
+      <h3>
+        <a href="burc.html" style="text-decoration: none; color: blanchedalmond"
+          >Burc tahmini</a
+        >
+      </h3>
+    </div>
+    <div class="center">
+      <form>
+        <label for="gender">
+          <h3>Cisiyetiniz</h3>
+        </label>
+        <br />
+        <input type="radio" name="gender" id="gender" />Erkek
+        <input type="radio" name="gender" id="gender" />Kadın <br /><br />
+        <label for="burc"></label>
+        <select name="burc" id="burc" style="height: 30px">
+          <option value="koc">koc</option>
+          <option value="boga">boga</option>
+          <option value="akrep">akrep</option>
+          <option value="ikizler">ikizler</option>
+        </select>
+        <br /><br />
+        <label for="bdate">Dogum tarihi</label>
+        <input type="date" name="bdate" id="bdate" />
+        <br />
+        <label for="time">Dogum Saati</label>
+        <input type="time" name="time" id="time" />
+        <br /><br /><br />
+        <input type="submit" value="kaydet" id="button" />
+        <input type="reset" value="iptal" id="button" />
+      </form>
+    </div>
+  </body>
+</html>
